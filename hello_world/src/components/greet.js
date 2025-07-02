@@ -6,6 +6,6 @@ import React from "react";
 // );
 // }
 
-export const Greet = () => <h1> I am your second component</h1>;
+ const Greet = () => <h1> I am your second component</h1>;
 
-// export default Greet;
+ export default Greet;
