@@ -3,6 +3,7 @@ import './App.css';
 // import {Greet} from './components/greet'; 
 import Greet from './components/greet'; 
 import Welcome from './components/welcome';
+import Hello from './components/hello';
 
 
 function App() {
@@ -21,10 +22,14 @@ function App() {
         </a>
       </header>
       {/* component  */}
-      <Greet />
+      {/* <Greet /> */}
 
       {/* class component  */}
-      <Welcome />
+      {/* <Welcome /> */}
+
+
+      {/* react component  */}
+      <Hello />
 
     </div>
   );
