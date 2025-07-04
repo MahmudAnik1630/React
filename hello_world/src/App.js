@@ -9,6 +9,7 @@ import Message from './components/message';
 import Counter from './components/counter';
 import Gre from './components/gre';
 import Gr from './components/gr';
+import DestucturePropsClassCompoonent from './components/destucturePropsClassCompoonent';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Counter />
           <Gre name="Anik" heroname="AntMan"/>
           <Gr name="Habib" heroname="Hulk"/>
+          <DestucturePropsClassCompoonent name="Anik" />
         
 
     </div>
