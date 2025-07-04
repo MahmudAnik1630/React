@@ -7,6 +7,8 @@ import Greet from './components/greet';
 // import Hello from './components/hello';
 import Message from './components/message';
 import Counter from './components/counter';
+import Gre from './components/gre';
+import Gr from './components/gr';
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
 
           <Message />
           <Counter />
+          <Gre name="Anik" heroname="AntMan"/>
+          <Gr name="Habib" heroname="Hulk"/>
         
 
     </div>
