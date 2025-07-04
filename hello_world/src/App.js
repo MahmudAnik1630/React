@@ -1,26 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Greet from './components/greet';
 // import {Greet} from './components/greet'; 
-import Greet from './components/greet'; 
-import Welcome from './components/welcome';
-import Hello from './components/hello';
+// import Greet from './components/greet'; 
+ import Welcome from './components/welcome';
+// import Hello from './components/hello';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p> Hello world</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
       {/* component  */}
       {/* <Greet /> */}
 
@@ -29,7 +19,17 @@ function App() {
 
 
       {/* react component  */}
-      <Hello />
+      {/* <Hello />
+      <Hello /> */}
+
+        < Greet name ="Hello Anik" heroname="Batman"> <p>This is a children </p>   </Greet>
+         <Greet name ="Hello habib" heroname="Superman"> <button>Click Me</button> </Greet>
+          <Greet name ="Hello Anika" heroname="Wonder Woman"/> 
+
+
+          <Welcome name ="Hello Anik" heroname="Batman" />
+          <Welcome name ="Hello habib" heroname="Superman" />
+          <Welcome  name ="Hello Anika" heroname="Wonder Woman"/>
 
     </div>
   );

@@ -6,6 +6,13 @@ import React from "react";
 // );
 // }
 
- const Greet = () => <h1> I am your second component</h1>;
+const Greet = (props) => (
+  <div>
+    <h1>
+      {props.name} I am your second component {props.heroname}
+    </h1>
+    {props.children}
+  </div>
+);
 
-     export default Greet;
+export default Greet;
