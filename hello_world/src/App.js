@@ -10,6 +10,8 @@ import Counter from './components/counter';
 import Gre from './components/gre';
 import Gr from './components/gr';
 import DestucturePropsClassCompoonent from './components/destucturePropsClassCompoonent';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 
 function App() {
@@ -41,6 +43,10 @@ function App() {
           <Gre name="Anik" heroname="AntMan"/>
           <Gr name="Habib" heroname="Hulk"/>
           <DestucturePropsClassCompoonent name="Anik" />
+
+
+          <FunctionClick/>
+          <ClassClick/>
         
 
     </div>
