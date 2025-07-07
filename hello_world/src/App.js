@@ -16,6 +16,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import UserGreetingUsingVar from './components/UserGreetingUsingVar';
+import NameList from './components/NameList';
 
 
 
@@ -56,6 +57,7 @@ function App() {
           <ParentComponent/>
           <UserGreeting/>
           <UserGreetingUsingVar/>
+          <NameList/>
         
 
     </div>
