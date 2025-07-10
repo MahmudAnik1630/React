@@ -18,6 +18,8 @@ import UserGreeting from './components/UserGreeting';
 import UserGreetingUsingVar from './components/UserGreetingUsingVar';
 import NameList from './components/NameList';
 import Person from './components/Person';
+import Stylesheet from './components/Stylesheet';
+
 
 
 
@@ -60,6 +62,8 @@ function App() {
           <UserGreetingUsingVar/>
           <NameList/>
           <Person/>
+
+          <Stylesheet/>
         
 
     </div>
